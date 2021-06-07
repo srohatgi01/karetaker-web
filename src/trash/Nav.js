@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Style/App.css';
 import {Link} from 'react-router-dom';
 
 function Nav(){
@@ -17,6 +17,9 @@ function Nav(){
                 </Link>
                 <Link style ={navstyle} to ="/jokes">
                     <li>Jokes</li>
+                </Link>
+                <Link style ={navstyle} to ="/Postform">
+                    <li>Post User</li>
                 </Link>
             </ul>
         </nav>
