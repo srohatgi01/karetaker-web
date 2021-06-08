@@ -16,7 +16,7 @@ function Check_res() {
     userState();
   }, [])
 
-  const [checker, setChecker] =useState(false);
+  
  
   console.log(user);
 
@@ -24,7 +24,7 @@ function Check_res() {
     localStorage.removeItem("user");
     setUser(null)
   };
-  console.log("checker is : "+ checker)
+ 
 
 
   return (

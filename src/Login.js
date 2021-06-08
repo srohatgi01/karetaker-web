@@ -10,6 +10,7 @@ import fire from './firebase_config';
 import Check_res from './Check_res';
 import './login.css'
 import Logo from "./Logo.png";
+import google from "./icons/google.png";
 import {
     BrowserRouter as Router,
     Switch,
@@ -63,7 +64,8 @@ const Login = (props)=> {
         <section className="wrapper">
             <div className="loginBox">
             <img src={Logo} className="appLogoLogin" />
-            {/* <button className="loginButton" onClick={()=>(SignIn())}>Login with Google</button> */}
+            <h1 className="appNameLogin">Karetaker</h1>
+            <button className="loginButton" onClick={()=>(SignIn())}><div><img src={google} className="googleLogo" /><span className="buttonText">Sign In with Google</span></div></button>
             </div>
         </section>
     )

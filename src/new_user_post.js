@@ -135,7 +135,7 @@ var submit = async (e) => {
           <form onSubmit={(e)=> (submit(e))}>
             <select id="gender" onChange={(e) => handle(e)}>
               <option value="MALE" >MALE</option>
-              <option value="FEMALE" selected >FEMALE</option>
+              <option value="FEMALE" selected defaultValue >FEMALE</option>
               <option value="OTHERS" >OTHERS</option>
             </select>
             <input

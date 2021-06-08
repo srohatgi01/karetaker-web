@@ -4,6 +4,7 @@ import Check_res from "./Check_res";
 import New_user_post from "./new_user_post";
 import Check_api from "./check_api";
 import UserData from "./userdata";
+import Home from "./Home";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/dashboard" exact component={UserData} />
       <Route path="/new_user_post" exact component={New_user_post} />
       <Route path="/check_api" exact component={Check_api} />
+      <Route path="/home" exact component={Home} />
       </Switch>
     </div>
     </Router>
