@@ -8,9 +8,9 @@ import  Typography  from '@material-ui/core/Typography';
 import firebase from 'firebase';
 import fire from './firebase_config';
 import Check_res from './Check_res';
-import './login.css'
-import Logo from "./Logo.png";
-import google from "./icons/google.png";
+import '../stylings/login.css'
+import Logo from "../Logo.png";
+import google from "../icons/google.png";
 import {
     BrowserRouter as Router,
     Switch,
@@ -53,14 +53,6 @@ const Login = (props)=> {
 
     }
     return (
-        // <Container components="main" maxWidth="xs"className={classes.container}>
-        //     <Card>
-        //         <CardContent>
-        //             <Typography className={classes.title} color="textSecondary">Login With Google</Typography>
-        //             <Button variant ="contained" className={classes.button} color="secondary" onClick={() => (SignIn())}>Login</Button>
-        //         </CardContent>
-        //     </Card>
-        // </Container>
         <section className="wrapper">
             <div className="loginBox">
             <img src={Logo} className="appLogoLogin" />

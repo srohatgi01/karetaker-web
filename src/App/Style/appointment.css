@@ -1,0 +1,185 @@
+.searchBar{
+    margin-top: 0px;
+    justify-content: center;
+    border-radius: 50px;
+    width: 600px;
+    height: 40px;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    border: none;
+    display: inline-block;
+    align-items: center;
+    outline:0;
+    padding-left: 20px;
+}
+
+.searchBar ::placeholder{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.searchBg{
+    margin-left: -10px;
+    margin: 0%;
+    height:400px;
+    width:100%;
+    text-align: center;
+    background-color:rgba(99, 159, 165, 1);
+    /* -webkit-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.31); 
+    box-shadow: 0px 1px 90px -2px rgba(0,0,0,0.31); */
+    line-height: 50px;
+    display: inline-block;
+    
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.searchBg h2{
+    color: white;
+    margin-top: 122px;
+    font-size: xx-large;
+}
+
+
+.searchBg button{
+    
+    background-color:rgba(99, 159, 165, 1);
+    border: white;
+    border-radius: 5px;
+    flex-direction: row;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+.symptomsPng{
+    margin-top: 100px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    flex-direction: row;
+}
+/* .symptomsPng img{ */
+    /* height:  200px;
+    margin: 60px;
+    flex-direction: row;
+} */
+
+
+.symptomsPng h3{
+    font-size: xx-large;
+    color: rgb(80, 80, 80);
+}
+
+.searchList{
+    
+    /* z-index: 5; */
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    list-style-type: none;
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+    /* background-color: rgba(0, 0, 0, 0.479); */
+}
+
+.searchCard {
+    list-style-type: none;
+    text-align: left;
+    font-size:2ch;
+    display: inline-block;
+    font-weight:500 ;
+    z-index: 6;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+    height: 170px;
+    border-radius: 5px;
+    border-left: 6px solid rgba(99, 159, 165, 1);
+    /* cursor: pointer; */
+}
+.searchCard button{
+    cursor: pointer;
+    background-color:rgba(99, 159, 165, 1);
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 155px;
+    font-size: 15px;
+    margin-top: 22px;
+}
+.searchCard h5{
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+}
+.searchCard span{
+    margin-top: 0px;
+    font-weight: 450;
+    margin-bottom: 0px;
+}
+.practicingYears{
+    font-weight:700 !important;
+}
+.searchCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.searchContainer {
+    margin-left: 10px;
+    padding: 2px 16px; 
+  }
+  /* .colorBar{
+      box-sizing: border-box;
+      background-color: rgb(42, 42, 133);
+      height: fit-content;
+      width:100px;
+  } */
+
+   .symptomsButton {
+       text-align: center;
+       align-items: center;
+   }
+.calendar{
+    width:500px;
+    height:300px;
+    font-weight: 800;}
+.slotsList{
+    cursor: pointer;
+    justify-content: center;
+    padding-top: 15px;
+    list-style-type: none;
+    text-align: center;
+    font-size:2ch;
+    display: inline-block;
+    font-weight:800 ;
+    z-index: 6;
+    background-color: white;
+    /* margin-top: 30px; */
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100px;
+    height: 30px;
+    border-radius:10px;
+    border-top: 6px solid rgba(99, 159, 165, 1);
+
+}
+.slotsList:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+

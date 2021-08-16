@@ -21,7 +21,7 @@ import {
 } from "react-router-dom";
 // import { Dashboard, MoreVertOutlined } from "@material-ui/icons";
 import Login from "./Login";
-import Dashboard from "./Dashboard";
+import Dashboard from "../Dashboard/Dashboard";
 import Check_res from "./Check_res";
 import axios from "axios";
 
